@@ -1,0 +1,7 @@
+final: all
+
+all: 
+	gcc shop.c inventory.h -o eshop
+
+clean:
+	rm *o.final
